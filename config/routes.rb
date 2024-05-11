@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get "/ice",      controller: "dinnertime", action: "blizzard"
 
+  get "/playlist" => "cartravel#music"
+
   # Defines the root path route ("/")
   # root "posts#index"
 end

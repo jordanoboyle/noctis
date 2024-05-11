@@ -1,3 +1,4 @@
+
 class DinnertimeController < ApplicationController
 
   def thunder
@@ -14,4 +15,6 @@ class DinnertimeController < ApplicationController
       ice_mag2: "blizzara"
     }
   end
+
+
 end
